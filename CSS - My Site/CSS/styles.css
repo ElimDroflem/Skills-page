@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+
+}
+
+hr {
+  margin: 80px auto 80px auto;
+  width: 60px;
+  border-style: none;
+  border-top: dotted 7px;
+  color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
+    color: #40514E;
+}
+
+.top-container {
+  background-color : #E4F9F5;
+  padding-top: 80px;
+  position: relative
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  padding-top: 40px;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  margin: 60px 30px 60px 30px
+}
+
+.btn {
+  margin: 40px auto 60px auto;
+  padding: 20px 50px;
+  width: 120px;
+  font-size: 16px;
+  background: #66BFBF;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 350px;
+  position: absolute;
+}
+
+.eating-img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.drinking-img {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.profile-img {
+  margin-top: 60px;
+}
+
+.desc-text {
+  color: #40514E;
+}
+
+#profile-text {
+  display: inline-block;
+  width: 700px;
+  text-align: justify;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 10px;
+  margin-top: 40px
+}
